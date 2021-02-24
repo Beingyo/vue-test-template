@@ -25,5 +25,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 >
 > 2、install 如果遇到 node-sass@4.14.1 错误，可以先执行 npm config set sass_binary_site=https://npm.taobao.org/mirrors/node-sass 对 node-sass 的数据源设置再继续 install
 
-## 首页截图
+### demo目录
 ![avatar](https://github.com/Beingyo/ReadMeImgRepository/blob/main/img/testIndex.png)
