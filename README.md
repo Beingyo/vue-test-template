@@ -24,3 +24,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 > 1、主要记录个人曾经写/用过的一些小demo(主要基于element组件)，随缘更新
 >
 > 2、install 如果遇到 node-sass@4.14.1 错误，可以先执行 npm config set sass_binary_site=https://npm.taobao.org/mirrors/node-sass 对 node-sass 的数据源设置再继续 install
+
+## 首页截图
+>! [这里随便填写 ] (https://github.com/Beingyo/ReadMeImgRepository/blob/main/img/testIndex.png)；
