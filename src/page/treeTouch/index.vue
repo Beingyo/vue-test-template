@@ -110,7 +110,7 @@
       // 删除部门
       deleteDepartmentName(item) {
         console.log('删除部门')
-      }
+      },
     }
   }
 </script>
