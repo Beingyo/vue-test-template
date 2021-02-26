@@ -23,7 +23,7 @@ npm install imports-loader and exports-loader
         renderer: null,
         mesh: null,
         controls: null,
-        github: '暂无',
+        github: 'https://github.com/Beingyo/vue-threejs-demo',
       }
     },
     methods: {
