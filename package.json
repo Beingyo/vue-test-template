@@ -2,7 +2,7 @@
   "name": "vue-test-template",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "胶佬 <413009063@qq.com>",
+  "author": "游俊源 <413009063@qq.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -11,11 +11,15 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "and": "0.0.3",
     "element-ui": "^2.13.2",
+    "exports-loader": "^2.0.0",
     "file-saver": "^2.0.5",
+    "imports-loader": "^2.0.0",
     "node-sass": "^4.14.1",
     "sortablejs": "^1.13.0",
     "style-loader": "^1.2.1",
+    "three": "^0.126.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "xlsx": "^0.16.9"
