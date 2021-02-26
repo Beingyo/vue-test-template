@@ -107,7 +107,7 @@
         this.type = 3
         this.ruleForm.deptName = ''
       },
-      // 删除部门
+      // 删除部门 
       deleteDepartmentName(item) {
         console.log('删除部门')
       }
