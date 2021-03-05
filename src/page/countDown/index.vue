@@ -31,7 +31,7 @@
     methods: {
       getCode() {
         this.getCodeLoad = false
-        const endMsRes = (new Date()).getTime() + 30000
+        const endMsRes = (new Date()).getTime() + 60000
         localStorage.setItem('endTime', JSON.stringify(endMsRes))
         this.codeCountDown(endMsRes)
       },

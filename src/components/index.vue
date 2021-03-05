@@ -28,7 +28,7 @@
       <el-col :span="3":offset="2"><div class="grid-content bg-purple"><span id="imgTouch" @click="routeLink">触摸图片显示文字</span></div></el-col>
       <el-col :span="3":offset="1"><div class="grid-content bg-purple"><span id="wholeNation" @click="routeLink">全国地区四级</span></div></el-col>
       <el-col :span="3":offset="1"><div class="grid-content bg-purple"><span id="threejs" @click="routeLink">threejs</span></div></el-col>
-      <el-col :span="3":offset="1"><div class="grid-content bg-purple"><span id="2" @click="routeLink">0</span></div></el-col>
+      <el-col :span="3":offset="1"><div class="grid-content bg-purple"><span id="proAndIn" @click="routeLink">依赖注入</span></div></el-col>
       <el-col :span="3":offset="1"><div class="grid-content bg-purple"><span id="3" @click="routeLink">0</span></div></el-col>
     </el-row>
   </div>

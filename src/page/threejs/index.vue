@@ -5,7 +5,7 @@ npm install imports-loader and exports-loader
 
 <template>
   <div style="width: 100%;text-align: left">
-    <p>具体例子请参考我另一个github项目：{{ github }}</p>
+    <p>具体例子请参考我另一个github项目：<a :href="github" target="_blank">{{ github }}</a></p>
     <div id="container"></div>
   </div>
 </template>

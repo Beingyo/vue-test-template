@@ -30,6 +30,7 @@ export default new Router({
     {path: '/imgTouch', name: 'imgTouch', meta: {title: '触摸图片显示文字'}, component: () => import('@/page/imgTouch/index')},
     {path: '/wholeNation', name: 'wholeNation', meta: {title: '全国地区四级'}, component: () => import('@/page/wholeNation/index')},
     {path: '/threejs', name: 'threejs', meta: {title: 'threejs'}, component: () => import('@/page/threejs/index')},
+    {path: '/proAndIn', name: 'proAndIn', meta: {title: '依赖注入'}, component: () => import('@/page/proAndIn/index')},
 
     {path: '/test1', name: 'test1', component: test1},
   ]
