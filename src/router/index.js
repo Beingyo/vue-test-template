@@ -31,6 +31,10 @@ export default new Router({
     {path: '/wholeNation', name: 'wholeNation', meta: {title: '全国地区四级'}, component: () => import('@/page/wholeNation/index')},
     {path: '/threejs', name: 'threejs', meta: {title: 'threejs'}, component: () => import('@/page/threejs/index')},
     {path: '/proAndIn', name: 'proAndIn', meta: {title: '依赖注入'}, component: () => import('@/page/proAndIn/index')},
+    {path: '/vueExtend', name: 'vueExtend', meta: {title: 'vueExtend-构造器'}, component: () => import('@/page/vueExtend/index')},
+
+    {path: '/vueSetDelete', name: 'vueSetDelete', meta: {title: '视图更新'}, component: () => import('@/page/vueSetDelete/index')},
+
 
     {path: '/test1', name: 'test1', component: test1},
   ]

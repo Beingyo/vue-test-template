@@ -29,7 +29,15 @@
       <el-col :span="3":offset="1"><div class="grid-content bg-purple"><span id="wholeNation" @click="routeLink">全国地区四级</span></div></el-col>
       <el-col :span="3":offset="1"><div class="grid-content bg-purple"><span id="threejs" @click="routeLink">threejs</span></div></el-col>
       <el-col :span="3":offset="1"><div class="grid-content bg-purple"><span id="proAndIn" @click="routeLink">依赖注入</span></div></el-col>
-      <el-col :span="3":offset="1"><div class="grid-content bg-purple"><span id="3" @click="routeLink">0</span></div></el-col>
+      <el-col :span="3":offset="1"><div class="grid-content bg-purple"><span id="vueExtend" @click="routeLink">构造器</span></div></el-col>
+    </el-row>
+
+    <el-row :gutter="10">
+      <el-col :span="3":offset="2"><div class="grid-content bg-purple"><span id="vueSetDelete" @click="routeLink">视图更新</span></div></el-col>
+      <el-col :span="3":offset="1"><div class="grid-content bg-purple"><span id="" @click="routeLink">0</span></div></el-col>
+      <el-col :span="3":offset="1"><div class="grid-content bg-purple"><span id="" @click="routeLink">0</span></div></el-col>
+      <el-col :span="3":offset="1"><div class="grid-content bg-purple"><span id="" @click="routeLink">0</span></div></el-col>
+      <el-col :span="3":offset="1"><div class="grid-content bg-purple"><span id="" @click="routeLink">0</span></div></el-col>
     </el-row>
   </div>
 </template>
