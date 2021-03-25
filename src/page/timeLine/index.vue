@@ -41,7 +41,7 @@
             <div class="arrow-under"/>
             <div class="arrow-top"/>
             <div class="update-content-font">
-              <h3>XXX正式上线！</h3>
+              <h3>XXX来啦！</h3>
             </div>
           </div>
         </div>
@@ -62,10 +62,10 @@
               date: '2020',
               time: '05月07日',
               content: [
-                { text: '1.选项类字段支持颜色设置' },
-                { text: '2.表单填写复用上次提交内容优化' },
-                { text: '3.移动端添加常用应用、图表支持搜索' },
-                { text: '4.知识库单个文档支持内链分享' }
+                { text: '1.XXXXXXXX' },
+                { text: '2.XXXXXXXXXXXXX' },
+                { text: '3.XXXXXXXX' },
+                { text: '4.XXXXX' }
               ],
               url: '<a href="https://www.baidu.com">2020-05-07更新详解</a>'
             },
@@ -74,9 +74,9 @@
               date: '2020',
               time: '05月02日',
               content: [
-                { text: '1.选项类字段支持颜色设置' },
-                { text: '2.表单填写复用上次提交内容优化' },
-                { text: '3.移动端添加常用应用、图表支持搜索' }
+                { text: '1.XXXXXXXX' },
+                { text: '2.XXXXXXXXXXXXX' },
+                { text: '3.XXXXXXXX' }
               ],
               url: '<a href="https://www.baidu.com">2020-05-02更新详解</a>'
             },
@@ -85,8 +85,8 @@
               date: '2020',
               time: '04月15日',
               content: [
-                { text: '1.选项类字段支持颜色设置' },
-                { text: '2.表单填写复用上次提交内容优化' }
+                { text: '1.XXXXXX' },
+                { text: '2.XXXXXXXX' }
               ],
               url: '<a href="https://www.baidu.com">2020-04-15更新详解</a>'
             },
@@ -95,8 +95,8 @@
               date: '2019',
               time: '11月05日',
               content: [
-                { text: '1.选项类字段支持颜色设置' },
-                { text: '2.表单填写复用上次提交内容优化' }
+                { text: '1.XXXXXXXX' },
+                { text: '2.XXXXXXXX' }
               ],
               url: '<a href="https://www.baidu.com">2019-11-05更新详解</a>'
             },
@@ -105,7 +105,7 @@
               date: '2019',
               time: '10月20日',
               content: [
-                { text: '1.选项类字段支持颜色设置' }
+                { text: '1.XXXXXXXX' }
               ],
               url: '<a href="https://www.baidu.com">2019-10-20更新详解</a>'
             },
@@ -114,10 +114,10 @@
               date: '2019',
               time: '10月01日',
               content: [
-                { text: '1.选项类字段支持颜色设置' },
-                { text: '2.表单填写复用上次提交内容优化' },
-                { text: '3.移动端添加常用应用、图表支持搜索' },
-                { text: '4.知识库单个文档支持内链分享' }
+                { text: '1.XXXXXXXX' },
+                { text: '2.XXXXXXXXXXXX' },
+                { text: '3.XXXXXXXXXXXXXXXX' },
+                { text: '4.XXXXXXXX' }
               ],
               url: '<a href="https://www.baidu.com">2019-10-01更新详解</a>'
             }
@@ -138,7 +138,7 @@
       width: 96px;
       height: 96px;
       border-radius: 100%;
-      background: -webkit-gradient(linear, left top, right bottom, from(#caa95a), to(#ebdbac));
+      background: -webkit-gradient(linear, left top, right bottom, from(#78ca5a), to(#c6ebac));
       line-height: 96px;
       text-align: center;
       font-size: 28px;
@@ -167,10 +167,10 @@
       .vertical-hr {
         height: 9px;
         width: 9px;
-        background-color: #d7b759;
+        background-color: #78ca5a;
         position: absolute;
         border-radius: 100%;
-        box-shadow: 0 0 0 5px #ebdbac;
+        box-shadow: 0 0 0 5px #c6ebac;
         margin: 80px 0 0 -5px;
       }
     }
