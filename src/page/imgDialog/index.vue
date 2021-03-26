@@ -1,7 +1,7 @@
 <template>
   <div style="margin: 0 auto">
     <p>点击图片打开查看框</p>
-    <img @click="isShow" :src="imgUrl"/>
+    <img @click="isShow" :src="imgUrl" style="height: 200px;width: 200px"/>
     <el-dialog
       :visible.sync="isvisible"
       :width="width"
