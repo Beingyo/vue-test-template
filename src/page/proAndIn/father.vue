@@ -5,7 +5,6 @@
 </template>
 
 <script>
-
   export default {
     name: 'father',
     props: {
@@ -25,11 +24,6 @@
     provide() {
       return {
         father: this
-      }
-    },
-    data() {
-      return {
-
       }
     }
   }

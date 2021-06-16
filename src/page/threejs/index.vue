@@ -27,7 +27,7 @@ npm install imports-loader and exports-loader
       }
     },
     methods: {
-      init: function() {
+      init() {
         let container = document.getElementById('container');
 
         this.camera = new Three.PerspectiveCamera(70, container.clientWidth/container.clientHeight, 0.01, 10);
@@ -48,7 +48,7 @@ npm install imports-loader and exports-loader
         this.controls = new OrbitControls(this.camera, this.renderer.domElement)
 
       },
-      animate: function() {
+      animate() {
         requestAnimationFrame(this.animate);
         this.mesh.rotation.x += 0.01;
         this.mesh.rotation.y += 0.02;
@@ -63,7 +63,7 @@ npm install imports-loader and exports-loader
 </script>
 <style scoped>
   #container {
-    margin: 0 auto 0 0 ;
+    margin: 0 auto 0 0;
     width: 600px;
     height: 400px;
   }

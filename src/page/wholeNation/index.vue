@@ -360,12 +360,16 @@
       width: 542px;
     }
     .slelect-province {
+      display: inline;
     }
     .slelect-city {
+      display: inline;
     }
     .slelect-area {
+      display: inline;
     }
     .slelect-town {
+      display: inline;
     }
   }
 

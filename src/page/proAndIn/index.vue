@@ -36,20 +36,10 @@
   import father from './father'
   import son from './son'
   import grandson from './grandson'
+
   export default {
     name: 'proAndIn',
-    components: { father, son, grandson },
-    data() {
-      return {
-
-      }
-    },
-    created() {
-
-    },
-    methods: {
-
-    }
+    components: {father, son, grandson}
   }
 </script>
 
@@ -57,6 +47,7 @@
   .flex {
     display: flex;
   }
+
   .flex-item {
     flex: 1;
   }

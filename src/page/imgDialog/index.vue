@@ -25,7 +25,7 @@ name: "imgDialog",
     return {
       isvisible: false,
       width: '',
-      imgUrl: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180703%2F4669d3d7dec3494ebcd87f342ba9dc1b.jpeg&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1616656442&t=cf0350b8afc05caa929bc9edb237439b',
+      imgUrl: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F3%2F5699f7f74b0ef.jpg&refer=http%3A%2F%2Fpic1.win4000.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1619337142&t=d3f244de326c82f2b1d08a8f2d3a0d76',
       pictureUrl: ''
     }
   },
