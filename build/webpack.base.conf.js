@@ -45,16 +45,6 @@ module.exports = {
       ...(config.dev.useEslint ? [] : []),
       // ...(config.dev.useEslint ? [createLintingRule()] : []),
 
-      // imports和exports插件规则——使用threejs的轨道控制功能
-      {
-        test: require.resolve("three/examples/js/controls/OrbitControls"),
-        use: "imports-loader?THREE=three"
-      },
-      {
-        test: require.resolve("three/examples/js/controls/OrbitControls"),
-        use: "exports-loader?THREE.OrbitControls"
-      },
-
       // 常规规则
       {
         test: /\.scss$/,

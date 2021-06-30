@@ -33,8 +33,8 @@ export default new Router({
     {path: '/vueExtend', name: 'vueExtend', meta: {title: 'vueExtend-构造器'}, component: () => import('@/page/vueExtend/index')},
 
     {path: '/vueSetDelete', name: 'vueSetDelete', meta: {title: '视图更新'}, component: () => import('@/page/vueSetDelete/index')},
-    // {path: '/SVGFilter', name: 'SVGFilter', meta: {title: 'SVG滤镜'}, component: () => import('@/page/SVGFilter/index')},
-    {path: '/DIVStyle', name: 'DIVStyle', meta: {title: 'DIV样式'}, component: () => import('@/page/DIVStyle/index')},
+    // {path: '/SVGFilter', name: 'SVGFilter', meta: {title: 'SVG滤镜'}, component: () => import('@/page/SVGFilter/index')}
+
     {path: '/test', name: 'test', meta: {title: '测试'}, component: () => import('@/page/test/index')},
 
     {path: '/test1', name: 'test1', component: () => import('@/components/test1')},
